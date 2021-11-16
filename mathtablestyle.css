@@ -1,0 +1,51 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1124&q=100');
+    background-position: center;
+
+  color:rgb(50,165,101);
+  text-align:center;
+}
+
+/* Glassmorphism card effect */
+.card{
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    height : 90vh;
+    width : 500px;
+    color:white;
+    margin:auto;
+    font-family:monospace;
+}
+
+button{
+  color:white;
+  height: 30px;
+  text-align:center;
+  font-size: 16px;
+  font-family:cursive;
+  padding: 0px 10px;
+   background-color:rgb(142,126,183)
+  }
+input 
+{
+  background-color: rgba(0,0,0,0.5);
+  color:white;
+  width: 200px;
+  height: 30px;
+  text-align:center;
+  font-size: 16px;
+  font-family:cursive;
+
+}
+
+.output{
+  padding: 50px 0px;
+  font-size : 20px;
+}
+
+span{
+  color : lightgreen;
+  font-weight:bold;
+}
